@@ -1,12 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+}
 @font-face{
     font-family: iransens;
-    src:url("../font/IRANSansWeb.ttf");
+    src:url("../font/IRANSansWeb.ttf") format("truetype");
 
     font-family: iransensbold;
-    src: url("../font/IRANSansWeb_Bold.ttf");
+    src: url("../font/IRANSansWeb_Bold.ttf") format("truetype");
 
     font-family: b-titr;
-    src: url("../font/B_Titr_Bold.ttf");
+    src: url("../font/B_Titr_Bold.ttf") format("truetype");
 }
 @media (min-width: 768px) {
     .button-front {

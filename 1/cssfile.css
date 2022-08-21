@@ -1,0 +1,212 @@
+@font-face{
+    font-family: iransens;
+    src:url("../font/IRANSansWeb.ttf");
+
+    font-family: iransensbold;
+    src: url("../font/IRANSansWeb_Bold.ttf");
+
+    font-family: b-titr;
+    src: url("../font/B_Titr_Bold.ttf");
+}
+@media (min-width: 768px) {
+    .button-front {
+      font-size: 1.25rem;
+      padding: 12px 42px;
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: rgb(36, 36, 36);
+}
+h2{
+    margin: 0;
+    font-family: iransensbold;
+    font-size: 60px;
+    color: rgb(75, 0, 0);
+}
+button{
+    margin: 20px 110px;
+    font-family: b-titr;
+}
+ul{
+    background-color: brown;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+li{
+    display: inline-block;
+}
+.menu , a.menu:visited{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-family: b-titr;
+    font-size: 20px;
+}
+a.menu:hover , a.menu:active{
+    color: brown;
+    background-color: white;
+}
+p{
+    margin: 0;
+    font-family: iransens;
+    font-size: 40px;
+    text-align: justify;
+    color: dimgray;
+}
+.p2{
+    font-size: 30px;
+}
+.Chess1{
+    width: 1300px;
+    height: 750px;
+    margin: auto;
+    background-image: url("../img/pawnisking2.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    border-right: 10px dashed rgb(36, 36, 36);
+    border-left: 10px dashed rgb(36, 36, 36);
+}
+.Chess2{
+    width: 1300px;
+    height: 700px;
+    margin: auto;
+    background-image: url("../img/Chess.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    border-right: 10px dashed rgb(36, 36, 36);
+    border-left: 10px dashed rgb(36, 36, 36);
+}
+.Chess3{
+    width: 1300px;
+    height: 700px;
+    margin: auto;
+    background-image: url("../img/alireza-firouzja.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    border-right: 10px dashed rgb(36, 36, 36);
+    border-left: 10px dashed rgb(36, 36, 36);
+}
+.text1{
+    width: 1300px;
+    height: 400px;
+    margin: auto;
+    padding: 30px 50px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.text2{
+    width: 1300px;
+    height: 600px;
+    margin: auto;
+    padding: 30px 50px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.text3{
+    width: 1300px;
+    height: 900px;
+    margin: auto;
+    padding: 30px 50px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.button-pushable {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.button-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition:
+      transform
+      600ms
+      cubic-bezier(.3, .7, .4, 1);
+}
+.button-edge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(
+      to left,
+      hsl(340deg 100% 16%) 0%,
+      hsl(340deg 100% 32%) 8%,
+      hsl(340deg 100% 32%) 92%,
+      hsl(340deg 100% 16%) 100%
+    );
+}
+.button-front {
+    display: block;
+    position: relative;
+    padding: 12px 27px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: hsl(345deg 100% 47%);
+    will-change: transform;
+    transform: translateY(-4px);
+    transition:
+      transform
+      600ms
+      cubic-bezier(.3, .7, .4, 1);
+}
+.button-pushable:hover {
+    filter: brightness(110%);
+    -webkit-filter: brightness(110%);
+}
+.button-pushable:hover .button-front{
+    transform: translateY(-6px);
+    transition:
+      transform
+      250ms
+      cubic-bezier(.3, .7, .4, 1.5);
+}
+.button-pushable:active .button-front{
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+.button-pushable:hover .button-shadow{
+    transform: translateY(4px);
+    transition:
+      transform
+      250ms
+      cubic-bezier(.3, .7, .4, 1.5);
+}
+.button-pushable:active .button-shadow{
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+.button-pushable:focus:not(:focus-visible){
+    outline: none;
+}

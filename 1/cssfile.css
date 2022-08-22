@@ -18,6 +18,13 @@
       padding: 12px 42px;
     }
 }
+div{
+    width: 1300px;
+    margin: auto;
+    background-position: center; 
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -64,66 +71,42 @@ p{
     font-size: 30px;
 }
 .Chess1{
-    width: 1300px;
     height: 750px;
-    margin: auto;
     background-image: url("../img/pawnisking2.jpg");
-    background-position: center; 
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    box-sizing: border-box;
     border-right: 10px dashed rgb(36, 36, 36);
     border-left: 10px dashed rgb(36, 36, 36);
 }
 .Chess2{
-    width: 1300px;
     height: 700px;
-    margin: auto;
     background-image: url("../img/Chess.jpg");
     background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    box-sizing: border-box;
     border-right: 10px dashed rgb(36, 36, 36);
     border-left: 10px dashed rgb(36, 36, 36);
 }
 .Chess3{
-    width: 1300px;
     height: 700px;
-    margin: auto;
     background-image: url("../img/alireza-firouzja.jpg");
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    box-sizing: border-box;
     border-right: 10px dashed rgb(36, 36, 36);
     border-left: 10px dashed rgb(36, 36, 36);
 }
 .text1{
-    width: 1300px;
     height: 400px;
-    margin: auto;
     padding: 30px 50px;
     background-color: white;
-    box-sizing: border-box;
 }
 .text2{
-    width: 1300px;
     height: 600px;
-    margin: auto;
     padding: 30px 50px;
     background-color: white;
-    box-sizing: border-box;
 }
 .text3{
-    width: 1300px;
     height: 900px;
-    margin: auto;
     padding: 30px 50px;
     background-color: white;
-    box-sizing: border-box;
 }
 .button-pushable {
     position: relative;

@@ -72,9 +72,8 @@ p{
 }
 .Chess1{
     height: 750px;
+    background-size: cover;
     background-image: url("../img/pawnisking2.jpg");
-    border-right: 10px dashed rgb(36, 36, 36);
-    border-left: 10px dashed rgb(36, 36, 36);
 }
 .Chess2{
     height: 700px;

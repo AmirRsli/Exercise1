@@ -23,6 +23,7 @@ div{
     margin: auto;
     background-position: center; 
     background-repeat: no-repeat;
+    background-size: cover;
     box-sizing: border-box;
 }
 html{
@@ -72,13 +73,11 @@ p{
 }
 .Chess1{
     height: 750px;
-    background-size: cover;
     background-image: url("../img/pawnisking2.jpg");
 }
 .Chess2{
     height: 700px;
     background-image: url("../img/Chess.jpg");
-    background-size:cover;
     background-attachment: fixed;
     border-right: 10px dashed rgb(36, 36, 36);
     border-left: 10px dashed rgb(36, 36, 36);
@@ -86,7 +85,6 @@ p{
 .Chess3{
     height: 700px;
     background-image: url("../img/alireza-firouzja.jpg");
-    background-size: cover;
     background-attachment: fixed;
     border-right: 10px dashed rgb(36, 36, 36);
     border-left: 10px dashed rgb(36, 36, 36);
